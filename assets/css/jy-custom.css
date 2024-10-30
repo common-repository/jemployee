@@ -1,0 +1,379 @@
+.select2-container--default {
+	width:100% !important;
+}
+.select2-selection__choice {
+	font-size:13px !important;
+}
+
+.skill-and-profile label {
+	display: inline-block;
+}
+
+.skill-and-profile .skill {
+	display: flex;
+	align-items: center;
+}
+
+.edu-block,
+.exp-block {
+	position: relative;
+}
+.edu-block .form-group,
+.exp-block .form-group{
+	width: 50%;
+}
+.edu-block + .edu-last ,
+.exp-block + .edu-last {
+	width: 50%;
+}
+.edu-block .edu-remove ,
+.exp-block .edu-remove {
+	position: absolute;
+	top: 10px;
+	left: calc(50% + 20px);
+}
+.mb-20 {
+	margin-bottom:20px;
+}
+ul.multie-image-list  {
+	list-style:none;
+}
+.job_select {
+	display:block;
+}
+
+.js .listing-filter .dropdown-toggle {
+	display: block !important;
+}
+.listing-filter .bootstrap-select .dropdown-toggle:focus {
+	outline: none !important;
+}
+.listing-filter .btn-light:focus {
+	box-shadow: none;
+}
+.listing-filter .show > .btn-light.dropdown-toggle {
+	border-bottom: 0;
+}
+.listing-filter {
+	margin-bottom: 20px;
+}
+
+.listing-filter .bootstrap-select > .dropdown-toggle.bs-placeholder {
+	height: 40px;
+	padding: 0;
+}
+.listing-filter .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+	width: 150px;
+}
+.listing-filter .bootstrap-select .dropdown-toggle .filter-option {
+	padding: 0;
+}
+.listing-filter .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+	font-size: 1.4rem;
+    padding: 9px 15px;
+	background: #f8f9fa;
+	border-radius: 3px;
+}
+.listing-filter .bootstrap-select:hover .dropdown-toggle .filter-option-inner-inner {
+	background: #e2e6ea;
+}
+.listing-filter .dropdown-toggle::after, .candidate-view-filter .dropdown-toggle::after, .employer-view-filter .dropdown-toggle::after {
+	position: absolute;
+    top: 17px;
+    right: 15px;
+}
+.listing-filter .bootstrap-select .dropdown-menu.inner li {
+	font-size: 14px;
+}
+.Shortlisted {
+	color: #01d13d;
+	font-size: 14px;
+}
+
+.job-filter-wrapper .job-filter-dropdown .bootstrap-select > .dropdown-toggle.bs-placeholder {
+	display: block;
+}
+.job-filter-wrapper .job-filter-dropdown .btn:not(:disabled):not(.disabled) {
+	display: block;
+}
+.bootstrap-select .dropdown-toggle {
+	right: 0;
+}
+.download-resume span,
+.skill-and-profile .skill a {
+	font-size: 1.4rem;
+	line-height: 1.85;
+}
+.edit-resume-employee_info label {
+	font-weight: 400;
+}
+
+#map1 {
+	height: 250px;
+	width:100%;
+}
+
+#map-area .gm-style {
+	position: relative;
+	height: 200px !important;
+}
+
+#pac-input.custom-map {
+	position: absolute;
+	bottom: -50px !important;
+	left: 0 !important;
+	right: 0 !important;
+	top: auto !important;
+	height: 40px;
+}
+
+.nav-links {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.nav-links .tablenav-pages-navspan,
+.nav-links .prev.page-numbers,
+.nav-links .next.page-numbers {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	font-size: 15px;
+	font-weight: 400;
+	display: inline-block;
+	margin: 0 5px;
+	color: #6f7484;
+	transition: all .3s ease;
+	padding: 0;
+	background: #f9fbfe;
+	float: none;
+}
+.nav-links .page-numbers {
+	cursor: pointer;
+}
+.nav-links .page-numbers span {
+	line-height: 35px;
+}
+.nav-links .next.tablenav-pages-navspan:hover,
+.nav-links .prev.tablenav-pages-navspan:hover,
+.nav-links .prev.page-numbers:hover,
+.nav-links .next.page-numbers:hover {
+	color: #ffffff;
+    background: #246df8;
+    border-color: #246df8;
+}
+
+.nav-links .paging-input {
+	padding: 0 20px;
+}
+
+
+.candidate-view-controller-wrapper .candidate-view-controller .controller {
+	line-height: 38px;
+}
+
+.skill-and-profile .skill {
+	padding-right: 15px;
+	flex-wrap: wrap;
+}
+.skill-and-profile .social-profile {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-left: 15px;
+}
+
+@media all and (max-width: 767px) {
+	.skill-and-profile .social-profile {
+		padding-left: 0;
+	}
+}
+@media (max-width: 439px) {
+	.skill-and-profile .skill a {
+	    margin-bottom: 5px;
+	    margin-top: 5px;
+	}
+}
+.skill-and-profile .social-profile label,
+.skill-and-profile .skill label {
+	margin-bottom: 0;
+}
+
+.edit-resume-employee_info .select2-container--default .select2-selection--single {
+	border: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 0;
+}
+.select2-container--open .select2-dropdown--below {
+	border: 1px solid rgba(0, 0, 0, .08);
+	border-top: 1px solid rgba(0, 0, 0, .08);
+    border-top-left-radius: 3px; 
+    border-top-right-radius: 3px; 
+}
+.select2.select2-container.select2-container--default.select2-container--below.select2-container--open .select2-selection--single {
+	border-bottom-color: #246df8;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+	border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.col-form-label {
+	font-size: 14px;
+}
+
+@media screen and (min-width: 48em) {
+	.navigation.pagination {
+	    float: none !important; 
+	    width: 100% !important; 
+	}
+}
+
+.manage-job-container tbody .action {
+	display: flex;
+	justify-content: flex-end;
+	padding: 30px 0;
+	border-top: 0;
+	border-bottom: 0;
+}
+.manage-job-container .action .remove {
+	padding: 0;
+	background: transparent;
+	margin-left: 10px;
+}
+.manage-job-container .action .remove svg {
+	height: 15px;
+	width: 15px;
+}
+
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media, 
+.has-header-video:not(.twentyseventeen-front-page):not(.home) .custom-header-media {
+	z-index: 2;
+}
+
+
+.basic-info-input .select2.select2-container.select2-container--default {
+	border: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, .08);
+	border-radius: 0;
+}
+.basic-info-input .select2.select2-container.select2-container--default.select2-container--open {
+	border-bottom-color: #246df8;
+}
+
+.basic-info-input .select2.select2-container.select2-container--default .select2-selection--single {
+	border: 0;
+	height: 40px;
+}
+
+.basic-info-input .select2.select2-container.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 40px;
+}
+.basic-info-input .select2-container--default .select2-selection--single .select2-selection__arrow {
+	width: auto;
+}
+.basic-info-input .select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-width: 3px 3px 0 3px;
+}
+.media-inputs .input-group-text {
+	width: auto;
+}
+.upload-images .img {
+	overflow: hidden;
+}
+.upload-images .img span {
+	top: 0;
+	right: 0;
+}
+.job-post-form .button {
+	font-size: 14px;
+	font-weight: 600;
+}
+.basic-info-input .file-upload {
+	background: #246df8;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.nstSlider.sallery_change button {
+	background: #246df8;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 5px 20px;
+	margin-top: 10px;
+}
+
+.job-search form button {
+	padding: 0;
+}
+
+.exp-block .exp-remove {
+	position: absolute;
+	top: 0;
+	left: calc(50% + 20px);
+}
+.exp-block .exp-remove i {
+	color: #ff3366;
+}
+.edu-block .edu-remove i {
+	color: #ff3366;
+}
+.personal-skill {
+	position: relative;
+}
+.personal-skill .ps-remove {
+	position: absolute;
+	top: 0;
+	left: calc(100% + 0px);
+	color: #ff3366;
+}
+.personal-skill .ps-remove i {
+	color: #ff3366;
+}
+.input-block-wrap.jy-portfolio {
+	position: relative;
+}
+
+.input-block-wrap.jy-portfolio a {
+	position: absolute;
+	top: 0;
+	left: calc(100% + 0px);
+}
+.input-block-wrap.jy-portfolio a i {
+	color: #ff3366;
+}
+
+@media screen and (min-width: 48em) {
+	.jemployee-body #page:not(.home) .site-content,
+	.jemployee-body #page:not(.home) #content {
+		padding: 0 !important;
+	}
+}
+
+.job-filter-wrapper .jy-clear {
+	margin: 30px 30px 30px 50px;
+	padding: 5px 20px;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #fff;
+	background: #ff3366;
+}
+
+.jy-login-red {
+	display:flex;
+	align-items:center;
+	height:100%;
+}
+
+.job-list .body .more {
+	flex: 0 0 190px;
+}
+
+.job-view-controller-wrapper .job-view-controller .controller {
+	line-height: 38px;
+}
+.modal-login {
+	display:none;
+}
+
